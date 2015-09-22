@@ -52,6 +52,6 @@ public class BasicPlayerController : MonoBehaviour {
 			transform.eulerAngles = new Vector3(0f, 1f, 0f);
 		}
 		
-		Camera.main.transform.position = transform.position + new Vector3(0f, 2f, -8f);
+		Camera.main.transform.position = transform.position + new Vector3(0f, 4f, -10f);
 	}
 }
